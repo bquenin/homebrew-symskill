@@ -1,22 +1,22 @@
 class Symskill < Formula
   desc "Terminal UI and CLI for managing symlinked agent skills"
   homepage "https://github.com/bquenin/symskill"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bquenin/symskill/releases/download/v0.3.0/symskill-darwin-arm64.tar.gz"
-      sha256 "e7400e360089a88779963dd47285b49c5b8bec32b6219a65b08a53b39bc61135"
+      url "https://github.com/bquenin/symskill/releases/download/v0.3.1/symskill-darwin-arm64.tar.gz"
+      sha256 "bf9e3ada7b7baa0a6ddeae7393eada7c521d9e8d5faa5f4e011019cf853e12fd"
     else
-      url "https://github.com/bquenin/symskill/releases/download/v0.3.0/symskill-darwin-amd64.tar.gz"
-      sha256 "1ebd78de23d9d03df75d4694cfd79517d45d06be16defcc5fb19b4a14ba5844b"
+      url "https://github.com/bquenin/symskill/releases/download/v0.3.1/symskill-darwin-amd64.tar.gz"
+      sha256 "7e3b743e455e3e0b65fdccad114234a847321a24ee50e7a0d6b19882f4a463b1"
     end
   end
 
   on_linux do
-    url "https://github.com/bquenin/symskill/releases/download/v0.3.0/symskill-linux-amd64.tar.gz"
-    sha256 "824509953179d5fc548864a6aaebbc31f3ce9d3cc4597feb03f633470da45fd0"
+    url "https://github.com/bquenin/symskill/releases/download/v0.3.1/symskill-linux-amd64.tar.gz"
+    sha256 "a6d58baf7e86cdf91bb9bbea06be714eeee4c8430e1f13376c9cd05bb937b6d9"
   end
 
   def install
